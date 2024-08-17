@@ -30,7 +30,7 @@ body{
 .header__open-nav-button{
     color:#48e;
     position:absolute;
-    right: 70px;
+    right: 50px;
     user-select: none;
     border:1px solid #48e;
     border-radius: 5px;
