@@ -26,7 +26,7 @@ body{
     container-name: encabezado;
     position: sticky;
     z-index:10;
-    border-bottom:3px solid #6FD819;    
+    border-bottom:2px solid #FE9900;    
 }
 
 .header__open-nav-button{
@@ -36,13 +36,21 @@ body{
     user-select: none;
     border:1px solid #48e;
     border-radius: 5px;
-    box-shadow: 2px 2px 0px #6FD819;
+    box-shadow: 2px 2px 0px #FE9900;
     }
 
 .boton-menu{
     padding:6px 1px;
 }
 
+
+.header__open-nav-button:active{
+
+
+   transform: translate(2px,2px);
+   box-shadow: none;
+    transition: 0.1s transform, 0.1s box-shadow;
+}
 .header__nav{
     display:none;
     background: #18233f;
@@ -243,7 +251,7 @@ h3{
     color:#3A384F;
     width:clamp(300px,95%,600px);
     margin:3px;
-    box-shadow: 2px 2px 0px #ccc;
+    box-shadow: 2px 2px 0px #48e5;
 
 }
 
@@ -340,9 +348,11 @@ details{
     color:#3A384F;
     margin:5px;
     font-weight: 400;
-    box-shadow: 2px 2px 0px #ccc;
+    box-shadow: 2px 2px 0px #48e5;
 
 }
+
+boton
 
 
 details:hover{
