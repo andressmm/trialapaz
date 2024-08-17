@@ -348,7 +348,7 @@ font-size:1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 26px;
+    max-height: 30px;
     transition: max-height .5s;
     overflow: hidden;
 
