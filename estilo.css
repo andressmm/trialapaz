@@ -21,12 +21,12 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 4px 1px #3a384f99;
-    container-type: inline-size;
+    /*box-shadow: 0px 0px 4px 1px #3a384f99;
+    */container-type: inline-size;
     container-name: encabezado;
     position: sticky;
     z-index:10;
-    
+    border-bottom:3px solid #6FD819;    
 }
 
 .header__open-nav-button{
@@ -36,6 +36,7 @@ body{
     user-select: none;
     border:1px solid #48e;
     border-radius: 5px;
+    box-shadow: 2px 2px 1px #6FD819;
     }
 
 .boton-menu{
@@ -69,7 +70,7 @@ body{
     flex-direction: column;
     height: 40vh;
     margin:auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
@@ -89,7 +90,7 @@ display:none;
     color:#4af;
     align-items: center;
     text-decoration: none;
-    font-size:1.1em;
+    font-size:1.3vw;
 }
 
 .header__nav-item a:hover{
@@ -390,6 +391,9 @@ summary{
 
 @media (max-width:800px){
 
+    .header__nav-item a{
+        font-size:1.4rem;
+    }
     .load-bar, .socials{
         width:clamp(50%,90%, 95%);
 
