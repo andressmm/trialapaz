@@ -348,6 +348,7 @@ summary{
 }
         
         summary::marker{
+            display:none;
             content:'';}
         
         
