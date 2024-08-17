@@ -278,11 +278,11 @@ body {
 
 footer{
     bottom: 0;
-width: 100%;
+    width: 100%;
     padding:6px 10px;
     background-color: #18233f;
     color:#fffd;
-    font-size:1rem;
+    font-size:0.8rem;
     
 
 }
@@ -294,7 +294,7 @@ width: 100%;
 
 .capital{
 font-family: 'Indie flower';
-font-size:1.2rem;
+font-size:1rem;
 }
 
 
@@ -405,14 +405,14 @@ summary{
         font-size:1rem;
     }
     .footer{
-        font-size:0.7rem;
+        font-size:0.5rem;
     }
 
     .lapaz{
-        font-size: 0.7rem;
+        font-size: 0.4rem;
     }
     .capital{
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 
     .socials i{
