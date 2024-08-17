@@ -349,7 +349,8 @@ summary{
         
         summary::marker{
             display:none;
-            content:'';}
+            content:'';
+            margin-left: -1em;}
         
         
         
