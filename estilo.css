@@ -15,7 +15,7 @@ body{
 /* ----- SECCIONES DEL HEADER -----*/
 
 .header{
-    background:#3A384F;
+    background:#18233f;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ body{
 
 .header__nav{
     display:none;
-    background: #3A384F;
+    background: #18233f;
     position:absolute;
     height: 100vh;
     width: 100vw;
@@ -114,7 +114,6 @@ display:none;
         width: auto;
         justify-content: space-between;
         margin-right: 100px;
-        background:#3A384F;
 
     }   
 
