@@ -30,8 +30,7 @@ body{
 .header__open-nav-button{
     color:#48e;
     position:absolute;
-    right: 10px;
-    padding:1px;
+    right: 70px;
     user-select: none;
     border:1px solid #48e;
     border-radius: 5px;
@@ -259,7 +258,7 @@ h3{
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 footer{
@@ -310,5 +309,10 @@ font-size:1.2rem;
 
     .socials i{
         padding:0 7px;
+    }
+
+    .header__logo{
+        min-width: 80%;
+        width: 50x;
     }
 }
