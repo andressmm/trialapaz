@@ -381,7 +381,7 @@ summary{
     max-height: 34px;
     transition: max-height 2s;
     overflow: hidden;
-*/}
+*/
 
 
 
@@ -395,14 +395,14 @@ summary{
     }
 
     h1{
-        font-size:1rem;
+        font-size:1.1rem;
     }
 
     h3{
         font-size: 0.9rem;
     }
     h2{
-        font-size:.8rem;
+        font-size:.9rem;
     }
     .footer{
         font-size:0.5rem;
