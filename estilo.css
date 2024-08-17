@@ -299,38 +299,6 @@ font-size:1.2rem;
 
 
 
-@media (max-width:800px){
-
-    h1{
-        font-size:1.5rem;
-    }
-
-    h3{
-        font-size: 1rem;
-    }
-    h2{
-        font-size:1rem;
-    }
-    .footer{
-        font-size:0.7rem;
-    }
-
-    .lapaz{
-        font-size: 0.7rem;
-    }
-    .capital{
-        font-size: 0.9rem;
-    }
-
-    .socials i{
-        padding:0 7px;
-    }
-
-    .header__logo{
-        min-width: 80%;
-        width: 50x;
-    }
-}
 
 .icon{
     font-size: 2rem;
@@ -348,7 +316,7 @@ font-size:1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 30px;
+    max-height: 25px;
     transition: max-height .5s;
     overflow: hidden;
 
@@ -367,10 +335,9 @@ font-size:1.2rem;
 .content{
     padding:10px 0px;
     padding-top:10px;
-    margin:0 5px;
-    margin-bottom:0px;
+    margin:10px 5px;
+    
     font-size:1rem;
-    color:var(--text-color);
     border-top:1px solid #18233f
 }
 
@@ -411,4 +378,53 @@ display:none;
 
 p{
     margin:5px 0;
+}
+
+
+
+@media (max-width:800px){
+
+    h1{
+        font-size:1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    h2{
+        font-size:1rem;
+    }
+    .footer{
+        font-size:0.7rem;
+    }
+
+    .lapaz{
+        font-size: 0.7rem;
+    }
+    .capital{
+        font-size: 0.9rem;
+    }
+
+    .socials i{
+        padding:0 7px;
+    }
+
+    .header__logo{
+        min-width: 80%;
+        width: 50x;
+    }
+
+    .faq__option{
+        max-height: 30px;
+        font-size: 1rem;
+    }
+ 
+    
+.load-bar2{
+    width:clamp(60%,95%, 95%);
+}
+
+
+
+
 }
