@@ -350,22 +350,6 @@ summary{
         summary::marker{
             content:'';}
         
-        summary::before{
-            top:-9px;
-            content:'+';
-            position:absolute;
-            right: 10px;
-            font-weight:400;
-            font-size:2rem;
-        
-        }
-        
-        
-        
-        
-        details[open] summary::before{
-            content:"-";
-        }
         
         
     .content{
