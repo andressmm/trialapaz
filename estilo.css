@@ -138,6 +138,11 @@ display:none;
 
 /* -- FIN HEADER */
 
+
+main{
+    flex:1;
+}
+
 .profile{
 
     container-name: profile;
@@ -251,10 +256,13 @@ h3{
     font-weight: 600;
 }
 
-
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 footer{
-    position: fixed;
     bottom: 0;
 width: 100%;
     padding:10px;
