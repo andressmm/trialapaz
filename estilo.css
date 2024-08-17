@@ -245,6 +245,22 @@ h3{
 }
 
 
+.load-bar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #48e;
+    border-radius:8px;
+    padding:5px;
+    color:#3A384F;
+    width:clamp(60%,90%, 90%);
+    margin:2px;
+}
+
+
+
+
+
 .load-bar:hover{
     background-color: #48e2;
 }
@@ -318,4 +334,81 @@ font-size:1.2rem;
 
 .icon{
     font-size: 2rem;
+}
+
+.emoji{
+    font-size:1.6rem;
+}
+
+
+
+/* SECCION CRONOGRAMA - Desplegables*/
+
+.faq__option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 26px;
+    transition: max-height .5s;
+    overflow: hidden;
+
+}
+
+.faq__option:has(input[type="checkbox"]:checked) {
+    max-height:290px;
+}
+
+
+.faq__option:has(input[type="checkbox"]:checked) .content{
+    animation:aparecer 0.5s both;
+
+}
+
+.content{
+    padding:10px 0px;
+    padding-top:10px;
+    margin:0 5px;
+    margin-bottom:0px;
+    font-size:1rem;
+    color:var(--text-color);
+    border-top:1px solid #18233f
+}
+
+.faq__ask::marker{
+    content:'';}
+
+    .faq__ask::before{
+
+    position:absolute;
+    right: 0;
+    font-weight: 500;
+    font-size:1.2rem;
+
+}
+
+
+input[type="checkbox"]{
+display:none;
+}
+
+
+
+
+
+
+.faq__option b{
+    background-color: #ffb18c;
+    padding:1px 5px;
+    margin-right: 3px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+@keyframes aparecer{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+p{
+    margin:5px 0;
 }
