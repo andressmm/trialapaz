@@ -3,15 +3,19 @@
     --secondary-color:#48e;
     --shadows:#48e5;
     --content:#48e2;
+    --texto:#3A384F;
 
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat"; 
+}
 
-    
+a{
+    text-decoration: none;
+    color:var(--texto);
 }
 
 
@@ -255,7 +259,7 @@ h3{
     border:2px solid var(--secondary-color);
     border-radius:8px;
     padding:5px;
-    color:#3A384F;
+    color:var(--texto);
     width:clamp(300px,95%,600px);
     margin:3px;
     box-shadow: 2px 2px 0px var(--shadows);
@@ -341,29 +345,34 @@ font-size:1rem;
 }
 
 
-summary{
+summary,.info__grupos-titulo{
     text-align: center;
     cursor:pointer;
     font-weight: 600;
     padding:5px;
 }
 
-details{
+
+.info__grupos-titulo{
+    cursor: auto;
+}
+
+details,.info__grupos{
     border:2px solid var(--secondary-color);
     border-radius:8px;
     padding:6px;
-    color:#3A384F;
+    color:var(--primary-color);
     margin:5px;
     font-weight: 400;
     box-shadow: 2px 2px 0px var(--shadows);
 
 }
 
-boton
+
 
 
 details:hover{
-    background:#48e2;
+    background:var(--content);
 }
 
 summary{
@@ -389,7 +398,9 @@ summary{
     margin:10px 0px;
 }
 
-
+.lnk{
+    text-decoration:underline;
+}
 
     
     @keyframes aparecer{
