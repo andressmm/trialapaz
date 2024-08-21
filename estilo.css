@@ -402,6 +402,14 @@ summary{
     text-decoration:underline;
 }
 
+.largada{
+    color:red;
+}
+
+.ul__categorias{
+    margin-left:20px;
+}
+
     
     @keyframes aparecer{
         from{opacity: 0;}
